@@ -6,8 +6,6 @@
 
 A compound **fax API** that bundles PDF fetch (or local PDF generation from typed text), optional cover page, page counting, and global fax delivery into one HTTP endpoint. Useful when a bank, notary, hospital, or government office still only accepts fax — and you'd rather not rent a fax machine, a phone line, or a monthly subscription. Built on Sats4AI's L402 payment protocol.
 
-Search terms: *fax api, send fax api, online fax api, fax by api, pay per fax, fax no signup, send fax from pdf, send fax without phone line, ai fax api, l402 fax, mcp fax tool, phaxio alternative, documo alternative, efax alternative, srfax alternative*.
-
 ---
 
 ## What makes it different
@@ -174,36 +172,3 @@ Not this time? That's cool too. We've been there. A star on the repo is a free h
 ## License
 
 MIT — see [LICENSE](LICENSE).
-
-<details>
-<summary>Repository setup (for maintainers)</summary>
-
-```bash
-gh repo create cnghockey/pay-per-use-fax --public --source=. \
-  --description "Pay-per-fax API — send a fax from a PDF URL or typed text, pay with Bitcoin Lightning. No contract, no monthly fee, no telecom account. MCP-native. Alternative to eFax, Phaxio, Documo, SRFax." \
-  --homepage "https://sats4ai.com" \
-  --push
-
-gh repo edit cnghockey/pay-per-use-fax \
-  --add-topic fax \
-  --add-topic fax-api \
-  --add-topic send-fax \
-  --add-topic online-fax \
-  --add-topic fax-service \
-  --add-topic pdf-to-fax \
-  --add-topic pay-per-use \
-  --add-topic no-signup \
-  --add-topic mcp \
-  --add-topic model-context-protocol \
-  --add-topic l402 \
-  --add-topic lightning-network \
-  --add-topic bitcoin \
-  --add-topic api \
-  --add-topic telecom \
-  --add-topic efax-alternative \
-  --add-topic phaxio-alternative \
-  --add-topic documo-alternative \
-  --add-topic srfax-alternative
-```
-
-</details>
