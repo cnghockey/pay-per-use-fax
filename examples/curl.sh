@@ -7,12 +7,12 @@
 #   - any Lightning wallet that can pay a bolt11 and return a preimage
 #
 # Usage:
-#   PHONE="+14155552671" PDF_URL="https://example.com/contract.pdf" PAGES=3 ./curl.sh
+#   PHONE="+14155550123" PDF_URL="https://example.com/contract.pdf" PAGES=3 ./curl.sh
 
 set -euo pipefail
 
 ENDPOINT="${ENDPOINT:-https://sats4ai.com/api/l402/send-fax}"
-PHONE="${PHONE:?set PHONE in E.164 format, e.g. +14155552671}"
+PHONE="${PHONE:?set PHONE in E.164 format, e.g. +14155550123}"
 MODE="${MODE:-pdf}"
 PDF_URL="${PDF_URL:-}"
 TEXT="${TEXT:-}"

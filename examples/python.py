@@ -5,8 +5,8 @@ Requires:
     pip install requests
 
 Usage:
-    python python.py --phone +14155552671 --pdf-url https://example.com/contract.pdf --pages 3
-    python python.py --phone +14155552671 --mode text --text "Hello, this is a fax" --pages 1
+    python python.py --phone +14155550123 --pdf-url https://example.com/contract.pdf --pages 3
+    python python.py --phone +14155550123 --mode text --text "Hello, this is a fax" --pages 1
 """
 
 from __future__ import annotations

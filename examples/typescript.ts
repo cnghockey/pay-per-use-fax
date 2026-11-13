@@ -4,8 +4,8 @@
  * No dependencies — uses built-in fetch and readline.
  *
  * Usage:
- *   npx tsx typescript.ts --phone +14155552671 --pdf-url https://example.com/contract.pdf --pages 3
- *   npx tsx typescript.ts --phone +14155552671 --mode text --text "Hello" --pages 1
+ *   npx tsx typescript.ts --phone +14155550123 --pdf-url https://example.com/contract.pdf --pages 3
+ *   npx tsx typescript.ts --phone +14155550123 --mode text --text "Hello" --pages 1
  */
 
 import * as readline from "node:readline/promises";
@@ -77,7 +77,7 @@ function parseArgs(): FaxBody {
     const phone = get("--phone");
     const pages = get("--pages");
     if (!phone || !pages) {
-        console.error("Usage: --phone +14155552671 --pages 3 [--mode pdf|text] [--pdf-url URL] [--text \"...\"] [--cover-text \"...\"]");
+        console.error("Usage: --phone +14155550123 --pages 3 [--mode pdf|text] [--pdf-url URL] [--text \"...\"] [--cover-text \"...\"]");
         process.exit(1);
     }
     const mode = (get("--mode") ?? "pdf") as "pdf" | "text";

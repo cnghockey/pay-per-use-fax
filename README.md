@@ -42,7 +42,7 @@ Your agent discovers the `send-fax` tool and invokes it directly.
 curl -i -X POST https://sats4ai.com/api/l402/send-fax \
   -H "Content-Type: application/json" \
   -d '{
-    "phone_number": "+14155552671",
+    "phone_number": "+14155550123",
     "mode": "pdf",
     "pdf_url": "https://example.com/signed-contract.pdf",
     "cover_text": "Re: Loan application — please see attached signed agreement.",
@@ -133,7 +133,7 @@ See [/api/estimate-cost](https://sats4ai.com/api/estimate-cost) to price a send 
 
 | Field | Required | Example |
 |---|---|---|
-| `phone_number` | yes | `"+14155552671"` (destination fax, E.164) |
+| `phone_number` | yes | `"+14155550123"` (destination fax, E.164) |
 | `mode` | yes | `"pdf"` or `"text"` |
 | `pdf_url` | if `mode=pdf` | `"https://example.com/signed-contract.pdf"` |
 | `text` | if `mode=text` | `"Dear sir/madam, ..."` |
